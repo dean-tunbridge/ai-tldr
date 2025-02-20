@@ -1,4 +1,4 @@
-const Demo = () => {
+function Demo() {
   return <div>Demo</div>
 }
 
