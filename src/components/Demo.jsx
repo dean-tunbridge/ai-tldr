@@ -1,5 +1,9 @@
+import { logo } from '../assets'
+
 function Demo() {
-  return <div>Demo</div>
+  return (
+    <header className="w-full flex justify-center items-center flex-col"></header>
+  )
 }
 
 export default Demo
