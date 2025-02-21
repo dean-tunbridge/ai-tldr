@@ -9,7 +9,7 @@ function Hero() {
 
       <h1 className="head_text">
         Summarise Articles with <br />
-        <span>OpenAI GPT-4</span>
+        <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
     </header>
   )
