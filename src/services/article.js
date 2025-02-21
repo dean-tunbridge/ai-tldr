@@ -12,6 +12,8 @@ export const articleApi = createApi({
         'x-rapidapi-host',
         'article-extractor-and-summarizer.p.rapidapi.com'
       )
+
+      return headers
     },
   }),
   endpoints: (builder) => ({
