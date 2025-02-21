@@ -8,6 +8,7 @@ function Demo() {
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery()
 
   const handleSubmit = async (event) => {
+    event.preventDefault()
     const { data } = await getSummary({ articleUrl: article.url })
 
     if (data?.summary) {
