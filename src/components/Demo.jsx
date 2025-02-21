@@ -4,6 +4,7 @@ import { useLazyGetSummaryQuery } from '../services/article'
 
 function Demo() {
   const [article, setArticle] = useState({ url: '', summary: '' })
+  const [allArticles, setAllArticles] = useState([])
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery()
 
@@ -13,7 +14,9 @@ function Demo() {
 
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary }
+      const updatedAllArticles = [newArticle, ...allArticles]
       setArticle(newArticle)
+      setAllArticles(updatedAllArticles)
     }
   }
 
