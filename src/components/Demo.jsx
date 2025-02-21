@@ -24,6 +24,7 @@ function Demo() {
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary }
       const updatedAllArticles = [newArticle, ...allArticles]
+
       setArticle(newArticle)
       setAllArticles(updatedAllArticles)
 
