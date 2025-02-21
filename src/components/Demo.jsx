@@ -8,7 +8,14 @@ function Demo() {
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery()
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    const articlesFromLocalStorage = JSON.parse(
+      localStorage.getItem('articles')
+    )
+    if (articlesFromLocalStorage) {
+      setAllArticles(articlesFromLocalStorage)
+    }
+  }, [])
 
   const handleSubmit = async (event) => {
     event.preventDefault()
