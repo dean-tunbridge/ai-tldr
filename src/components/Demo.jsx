@@ -28,6 +28,8 @@ function Demo() {
       setArticle(newArticle)
       setAllArticles(updatedAllArticles)
 
+      console.log(newArticle)
+
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
     }
   }
