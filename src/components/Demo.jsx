@@ -77,7 +77,9 @@ function Demo() {
                   className="w-[40%] h-[40%] object-contain"
                 />
               </div>
-              <p>{item.url}</p>
+              <p className="flex-1 text-blue-700 font-medium text-small truncate">
+                {item.url}
+              </p>
             </div>
           ))}
         </div>
