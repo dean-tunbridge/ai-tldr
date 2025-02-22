@@ -5,6 +5,7 @@ import { useLazyGetSummaryQuery } from '../services/article'
 function Demo() {
   const [article, setArticle] = useState({ url: '', summary: '' })
   const [allArticles, setAllArticles] = useState([])
+  const [copied, setCopied] = useState('')
 
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery()
 
@@ -30,6 +31,12 @@ function Demo() {
 
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
     }
+  }
+
+  const handleCopy = (copyUrl) => {
+    setCopied(copyUrl)
+    navigator.clipboard.writeText(copyUrl)
+    setTimeout(() => setCopied(false), 2000)
   }
 
   return (
