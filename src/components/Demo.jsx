@@ -69,7 +69,16 @@ function Demo() {
             <div
               key={`link-${index}`}
               onClick={() => setArticle(item)}
-              className="link_card"></div>
+              className="link_card">
+              <div className="copy_btn">
+                <img
+                  src={copy}
+                  alt="copy_icon"
+                  className="w-[40%] h-[40%] object-contain"
+                />
+              </div>
+              <p>{item.url}</p>
+            </div>
           ))}
         </div>
       </div>
