@@ -66,13 +66,10 @@ function Demo() {
 
         <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
           {allArticles.map((item, index) => (
-            <div 
-            key={`link-${index}`} 
-            onClick{() => setArticle(item)
-              classname
-            
-            
-            ></div>
+            <div
+              key={`link-${index}`}
+              onClick={() => setArticle(item)}
+              className="link_card"></div>
           ))}
         </div>
       </div>
