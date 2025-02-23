@@ -1,6 +1,5 @@
 import Demo from './components/Demo'
 import Hero from './components/Hero'
-
 import './App.css'
 
 function App() {
