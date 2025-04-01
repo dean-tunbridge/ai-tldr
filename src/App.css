@@ -18,7 +18,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(255, 16, 243, 0) 0, #110011 100%);
+  background: radial-gradient(circle, rgba(255, 16, 243, 0) 0, #11001154 100%);
   background-color: black;
   position: absolute;
   content: '';
@@ -50,10 +50,10 @@
       hsla(215, 98%, 61%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, rgb(255, 50, 211) 0px, transparent 50%),
     radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, rgb(80, 82, 206) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
   position: absolute;
@@ -86,11 +86,11 @@
 }
 
 .purple_gradient {
-  @apply bg-gradient-to-r from-purple-500 via-purple-700 to-violet-800 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-purple-400 via-purple-700 to-violet-800 bg-clip-text text-transparent;
 }
 
 .description {
-  @apply m-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply m-5 text-lg text-purple-300 sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
