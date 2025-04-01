@@ -18,7 +18,8 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(58, 0, 55, 0) 0, #000000 100%);
+  background: radial-gradient(circle, rgba(255, 16, 243, 0) 0, #110011 100%);
+  background-color: black;
   position: absolute;
   content: '';
   z-index: 2;
