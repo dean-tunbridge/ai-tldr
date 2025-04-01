@@ -18,7 +18,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: radial-gradient(circle, rgba(58, 0, 55, 0) 0, #000000 100%);
   position: absolute;
   content: '';
   z-index: 2;
@@ -88,8 +88,8 @@
   @apply bg-gradient-to-r from-purple-500 via-purple-700 to-violet-800 bg-clip-text text-transparent;
 }
 
-.desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+.description {
+  @apply m-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
 }
 
 .url_input {
