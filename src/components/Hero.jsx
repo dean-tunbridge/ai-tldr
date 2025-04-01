@@ -8,7 +8,7 @@ function Hero() {
         <span className="purple_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
-        Blah Blah Blah so what is a Komodo Dragon anyway?
+        Blah Blah Blah so what exactly is a Komodo Dragon anyway?
         <br />
       </h2>
     </header>
