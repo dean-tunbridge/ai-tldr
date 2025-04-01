@@ -81,11 +81,11 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-purple-100 sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.purple_gradient {
+  @apply bg-gradient-to-r from-purple-500 via-purple-700 to-violet-800 bg-clip-text text-transparent;
 }
 
 .desc {

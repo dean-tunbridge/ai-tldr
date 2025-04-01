@@ -5,7 +5,7 @@ function Hero() {
 
       <h1 className="head_text">
         TL;DR with <br className="max-md:hidden" />
-        <span className="orange_gradient">OpenAI GPT-4</span>
+        <span className="purple_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc">
         Blah Blah Blah so what is a Komodo Dragon anyway?
