@@ -107,7 +107,7 @@ function Demo() {
                 Article <span className="purple_gradient">Summary</span>
               </h2>
               <div className="summary_box">
-                <p className=" font-medium text-sm text-gray-700">
+                <p className=" font-medium text-sm text-black">
                   {article.summary}
                 </p>
               </div>
