@@ -104,7 +104,7 @@ function Demo() {
           article.summary && (
             <div className="flex flex-col gap-3">
               <h2 className=" font-bold text-gray-600 text-xl">
-                Article <span className="blue_gradient">Summary</span>
+                Article <span className="purple_gradient">Summary</span>
               </h2>
               <div className="summary_box">
                 <p className=" font-medium text-sm text-gray-700">
