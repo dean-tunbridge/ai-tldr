@@ -80,7 +80,7 @@
 }
 
 .purple_gradient {
-  @apply bg-gradient-to-r from-purple-400 via-purple-700 to-violet-800 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-violet-600 via-purple-500 to-violet-800 bg-clip-text text-transparent;
 }
 
 .description {
