@@ -104,7 +104,7 @@
 }
 
 .delete_btn {
-  @apply w-6 h-6 rounded-full bg-red-500/70 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer;
+  @apply w-6 h-6 rounded-full bg-red-300/50 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer;
 }
 
 .blue_gradient {
