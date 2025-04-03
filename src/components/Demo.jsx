@@ -121,7 +121,7 @@ function Demo() {
           </p>
         ) : (
           article.summary && (
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 text-center">
               <h2 className=" font-bold text-gray-600 text-xl">
                 Article <span className="purple_gradient">Summary</span>
               </h2>
