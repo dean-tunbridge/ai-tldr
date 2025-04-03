@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { copy, linkIcon, tick } from '../assets'
+import { copy, linkIcon, tick, bin } from '../assets'
 import { useLazyGetSummaryQuery } from '../services/article'
 import Loader from './Loader'
 
@@ -98,7 +98,11 @@ function Demo() {
               <button
                 onClick={() => handleDelete(item.url)}
                 className="delete_btn text-red-500 ml-2">
-                Delete
+                <img
+                  src={bin}
+                  alt="delete_icon"
+                  className="w-[40%] h-[40%] object-contain"
+                />
               </button>
             </div>
           ))}
