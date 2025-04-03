@@ -95,7 +95,7 @@ function Demo() {
                 {item.url}
               </p>
 
-              <button
+              <div
                 onClick={() => handleDelete(item.url)}
                 className="delete_btn">
                 <img
@@ -103,7 +103,7 @@ function Demo() {
                   alt="delete_icon"
                   className="w-[40%] h-[40%] object-contain"
                 />
-              </button>
+              </div>
             </div>
           ))}
         </div>
