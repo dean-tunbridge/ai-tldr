@@ -40,6 +40,14 @@ function Demo() {
     setTimeout(() => setCopied(false), 2000)
   }
 
+  const handleDelete = (deleteUrl) => {
+    const updatedAllArticles = allArticles.filter(
+      (item) => item.url !== deleteUrl
+    )
+    setAllArticles(updatedAllArticles)
+    localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
+  }
+
   return (
     <section className="'mt-16 w-full max-w-xl">
       <div className="flex flex-col w-full gap-2">
