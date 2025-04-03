@@ -94,6 +94,12 @@ function Demo() {
               <p className="flex-1 text-blue-700 font-medium text-small truncate">
                 {item.url}
               </p>
+
+              <button
+                onClick={() => handleDelete(item.url)}
+                className="delete_btn text-red-500 ml-2">
+                Delete
+              </button>
             </div>
           ))}
         </div>
