@@ -97,7 +97,7 @@ function Demo() {
 
               <button
                 onClick={() => handleDelete(item.url)}
-                className="delete_btn text-red-500 ml-2">
+                className="delete_btn">
                 <img
                   src={bin}
                   alt="delete_icon"
