@@ -121,12 +121,12 @@ function Demo() {
           </p>
         ) : (
           article.summary && (
-            <div className="flex flex-col gap-3 text-center">
-              <h2 className=" font-bold text-gray-600 text-xl">
+            <div className="flex flex-col gap-3 text-center ">
+              <h2 className=" font-bold text-gray-600 text-3xl">
                 Article <span className="purple_gradient">Summary</span>
               </h2>
               <div className="summary_box">
-                <p className=" font-medium text-sm text-black">
+                <p className=" font-medium text-sm text-white">
                   {article.summary}
                 </p>
               </div>
