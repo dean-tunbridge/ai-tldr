@@ -32,7 +32,7 @@ function Demo() {
 
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
 
-      setArticle({ ...newArticle, url: '' })
+      setArticle({ url: '', summary: '' })
     }
   }
 
