@@ -88,9 +88,7 @@ function Demo() {
                 <img
                   src={copied === item.url ? tick : copy}
                   alt="copy_icon"
-                  className={`w-[40%] h-[40%] object-contain ${
-                    copied === item.url ? 'blue_gradient' : ''
-                  }`}
+                  className="w-[40%] h-[40%] object-contain"
                 />
               </div>
               <p className="flex-1 text-blue-700 font-medium text-small truncate">
