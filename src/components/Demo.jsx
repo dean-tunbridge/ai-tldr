@@ -39,7 +39,7 @@ function Demo() {
   const handleCopy = (copyUrl) => {
     setCopied(copyUrl)
     navigator.clipboard.writeText(copyUrl)
-    setTimeout(() => setCopied(false), 7000)
+    setTimeout(() => setCopied(false), 1000)
   }
 
   const handleDelete = (deleteUrl) => {
