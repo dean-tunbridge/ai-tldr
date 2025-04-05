@@ -32,6 +32,7 @@ function Demo() {
 
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
     }
+    setArticle({ url: '', summary: data.summary })
   }
 
   const handleCopy = (copyUrl) => {
